@@ -1,0 +1,11 @@
+/Users/dili/.rvm/gems/ruby-2.0.0-p451@railstutorial_rails_4_0/gems/activerecord-4.0.5/lib/active_record/migration.rb:383:in `check_pending!': Migrations are pending; run 'bin/rake db:migrate RAILS_ENV=test' to resolve this issue. (ActiveRecord::PendingMigrationError)
+	from /Users/dili/DH/rails_projects/first_app/spec/spec_helper.rb:13:in `<top (required)>'
+	from /Users/dili/DH/rails_projects/first_app/spec/requests/static_pages_spec.rb:1:in `require'
+	from /Users/dili/DH/rails_projects/first_app/spec/requests/static_pages_spec.rb:1:in `<top (required)>'
+	from /Users/dili/.rvm/gems/ruby-2.0.0-p451@railstutorial_rails_4_0/gems/rspec-core-2.13.1/lib/rspec/core/configuration.rb:819:in `load'
+	from /Users/dili/.rvm/gems/ruby-2.0.0-p451@railstutorial_rails_4_0/gems/rspec-core-2.13.1/lib/rspec/core/configuration.rb:819:in `block in load_spec_files'
+	from /Users/dili/.rvm/gems/ruby-2.0.0-p451@railstutorial_rails_4_0/gems/rspec-core-2.13.1/lib/rspec/core/configuration.rb:819:in `each'
+	from /Users/dili/.rvm/gems/ruby-2.0.0-p451@railstutorial_rails_4_0/gems/rspec-core-2.13.1/lib/rspec/core/configuration.rb:819:in `load_spec_files'
+	from /Users/dili/.rvm/gems/ruby-2.0.0-p451@railstutorial_rails_4_0/gems/rspec-core-2.13.1/lib/rspec/core/command_line.rb:22:in `run'
+	from /Users/dili/.rvm/gems/ruby-2.0.0-p451@railstutorial_rails_4_0/gems/rspec-core-2.13.1/lib/rspec/core/runner.rb:80:in `run'
+	from /Users/dili/.rvm/gems/ruby-2.0.0-p451@railstutorial_rails_4_0/gems/rspec-core-2.13.1/lib/rspec/core/runner.rb:17:in `block in autorun'

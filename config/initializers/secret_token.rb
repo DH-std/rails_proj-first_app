@@ -13,8 +13,8 @@
 require 'securerandom'
 
 def secure_token
-	token_life = Rails.root.join('.secret')
-	if File.exist?(token_life)
+	token_file = Rails.root.join('.secret')
+	if File.exist?(token_file)
 		# Use the existing token.
     	File.read(token_file).chomp
  	else
